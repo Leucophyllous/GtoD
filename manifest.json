@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Google検索だけDuckDuckGoへ",
+  "version": "5.0.0",
+  "description": "新しいタブと既定の検索エンジンはGoogleのまま。Googleで検索を実行したときだけ同じクエリでDuckDuckGoにリダイレクトします。",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.google.com/*",
+    "*://*.google.co.jp/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "redirect_rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
