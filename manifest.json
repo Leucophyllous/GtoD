@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google検索だけDuckDuckGoへ",
+  "name": "GtoD",
   "version": "5.0.0",
   "description": "新しいタブと既定の検索エンジンはGoogleのまま。Googleで検索を実行したときだけ同じクエリでDuckDuckGoにリダイレクトします。",
   "permissions": [
